@@ -20,7 +20,6 @@ void main()
     case 'U':
         printf("it is vowel");
         break;
-
     default:
         printf("it is not vowel");
         break;

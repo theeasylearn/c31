@@ -1,0 +1,12 @@
+do while loop 
+--------------------------
+do while is exit control loop. do while first executed code inside body and then it check condition. if condition is true then body part will execute again  and so on. do while loop always execute at least once. 
+
+syntax
+--------------------------
+do 
+{
+    code....
+}while(condition);
+
+

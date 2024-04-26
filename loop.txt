@@ -6,7 +6,7 @@ syntax
 --------------------------
 do 
 {
-    code....
+    code..
 }while(condition);
 
 

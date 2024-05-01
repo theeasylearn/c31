@@ -1,0 +1,21 @@
+what is function?
+function is small program that has name, some code and optionally input & ouput. function are used to do some common task. 
+
+when we should create function?
+when we need to run some block of code at different places in c program. 
+
+why we create function?
+
+function are used to avoid repeatation of code. we should never repeat code because repeatation of code has many problems. 
+    1) like we may change code at one place but forgot to change at other place. 
+    2) code become difficult to understand and change.
+
+syntax to create function 
+return-type function-name (inputs)
+{
+    code 
+}
+
+
+
+

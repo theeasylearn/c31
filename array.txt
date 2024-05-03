@@ -1,0 +1,29 @@
+what is array?
+array means one type of list. for example list of your friends. list of your favourite dish, list of indian cricket team players, list means many related value. in array we can store multiple values. each value in array has unique position known as index. index start with 0. it means first value index is zero. 2nd value index is 1 and so on. last position index is always array size -1. 
+
+why we need an array?
+in normal variable we can store only one value. while in array variable we can store multiple values. imagine you want to store age of each and every friends. you have 20 friends. then you have to create 20 unique normal variable. if we use array instead of normal variable. we will create only one array variable in which we can store 20 value. 
+
+how array works?
+ when we create an array, we have to give array name and type and size. all the values in array must be of same type. size of the array can not change during program execution. 
+ we can set or get any value in array using array name and value's index 
+
+how to create an array?
+    syntax 
+    datatype array-name[size];
+
+    example
+    int age[15];
+
+//how to set value in array at specific position[index]
+
+    syntax 
+    array-name[index] = value;
+
+    example 
+        age[0] = 21;
+        age[1] = 25;
+        age[2] = 30;
+        
+    how to display value 
+    printf("%d",age[0]);

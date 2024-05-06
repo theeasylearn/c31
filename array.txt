@@ -27,3 +27,23 @@ how to create an array?
         
     how to display value 
     printf("%d",age[0]);
+
+
+2 dimensional(disha) array 
+array which has 2 dimensional is called 2d array or matrix.
+1st dimension is for row
+2nd dimension is for column 
+combination of row and column is called value or cell. we can access any value in 2d array using its row position and column position
+syntax 
+    datatype array-name[row][column]
+example
+    int marks[5][3]
+
+how to store value
+    marks[0][0] = 50
+    marks[0][1] = 75
+
+how to display value 
+    printf("%d",marks[0][2])
+
+

@@ -1,0 +1,18 @@
+what is structure?
+---------------------------------
+structure is one type of special variable in which we can store different types of related values.
+for example we can store name, surname, age, gender and weight of student into one variable. 
+first we have to define structure, then we can create one or more structure type of variable.
+each structure has member variable which can be of any type. structure can have integer, float, double string or even array or structure type variable. 
+
+how to create structure
+syntax
+struct structurename 
+{
+    type variablename;
+    type variablename;
+    type variablename;
+};
+
+how to create structure type variable 
+struct structurename variablename; 

@@ -40,4 +40,12 @@ void main()
         batch[i].total = temp;
         batch[i].percentage = batch[i].total / SUBJECT_COUNT;
     }
+    printf("===============================================================================");
+    printf("\nRESULT\n");
+    printf("===============================================================================\n");
+    printf("Name\t\tsub1\t\tsub2\t\tsub3\t\ttotal\t\taverage\tresult\n");
+    for (int i = 0; i < SIZE; i++)
+    {
+        printf("%s\t\t %d\t\t %d\t\t%d\t\t%d\t\t%5.2f\t%c \n",batch[i].fullname,batch[i].subjects[0],batch[i].subjects[1],batch[i].subjects[2],batch[i].total,batch[i].percentage,batch[i].result);
+    }
 }

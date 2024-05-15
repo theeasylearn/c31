@@ -16,3 +16,21 @@ struct structurename
 
 how to create structure type variable 
 struct structurename variablename; 
+
+union
+---------------------------------------
+union is also one type of structure but in union only one variable has value. for example we have union called player which has 2 variables one is run and other is wicket. now we store value in run, wicket will not store value. vice versa.
+syntax
+union union-name 
+{
+    type variablename;
+    type variablename;
+    type variablename; 
+}
+
+example
+union player 
+{
+    int run;
+    int wicket;
+} //2
